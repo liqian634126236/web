@@ -1,0 +1,6 @@
+{
+    "ip": "127.0.0.1",
+    "mpuVersion": "0.6.0",
+    "netInterface": "lo",
+    "noNeedInitFlag": false
+}

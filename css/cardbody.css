@@ -1,0 +1,158 @@
+.parent {
+    position: relative;
+    /* 其他样式属性 */
+  }
+
+  .centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 需要居中的 div 的样式 */
+  }
+
+  .text-right {
+    text-align: right;
+  }
+  .sb1 {
+    font-size: 12px; /* 调整字体大小，可以根据需要调整值 */
+    padding: 3px 6px; /* 调整内边距，以控制按钮的高度和宽度 */
+    border: 1px solid #ccc; /* 添加边框，可以根据需要调整样式 */
+    border-radius: 5px; /* 添加圆角 */
+    background-color: #0b9eb8; /* 背景颜色 */
+    color: rgb(255, 255, 255); /* 文本颜色 */
+    margin: 0;
+    /* padding: 0; */
+  }
+  .sb2 {
+    font-size: 12px; /* 调整字体大小，可以根据需要调整值 */
+    padding: 3px 6px; /* 调整内边距，以控制按钮的高度和宽度 */
+    border: 1px solid #ccc; /* 添加边框，可以根据需要调整样式 */
+    border-radius: 5px; /* 添加圆角 */
+    background-color: #333232; /* 背景颜色 */
+    color: rgb(255, 255, 255); /* 文本颜色 */
+    margin: 0;
+    /* padding: 0; */
+  }
+  .sb3 {
+    font-size: 12px; /* 调整字体大小，可以根据需要调整值 */
+    padding: 3px 6px; /* 调整内边距，以控制按钮的高度和宽度 */
+    border: 1px solid #ccc; /* 添加边框，可以根据需要调整样式 */
+    border-radius: 5px; /* 添加圆角 */
+    background-color: #07f8dc; /* 背景颜色 */
+    color: #333; /* 文本颜色 */
+    margin: 0;
+    /* padding: 0; */
+  }
+  .sb4 {
+    font-size: 12px; /* 调整字体大小，可以根据需要调整值 */
+    padding: 3px 6px; /* 调整内边距，以控制按钮的高度和宽度 */
+    border: 1px solid #ccc; /* 添加边框，可以根据需要调整样式 */
+    border-radius: 5px; /* 添加圆角 */
+    background-color: hsl(159, 91%, 45%); /* 背景颜色 */
+    color: #333; /* 文本颜色 */
+    margin: 0;
+    /* padding: 0; */
+  }
+
+  .centered-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* 让容器高度占满视口，以垂直居中按钮 */
+  }
+
+  /* 给按钮之间添加一些间距 */
+  .centered-buttons button {
+    margin: 0 10px;
+  }
+  .txtCenter {
+    text-align: center;
+  }
+  .txtLeft {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  /* 右对齐文本样式 */
+  .txtRight {
+    text-align: right;
+    padding-right: 20px;
+    /* 0的话是最靠右 */
+  }
+  .flex-container {
+    display: flex;
+    /* overflow-x: auto; */
+    /* white-space: nowrap; */
+    /* margin-left: 0px; */
+    /* justify-content: flex-start; */
+    margin-right: 90px;
+  }
+  .bordered-div {
+    border: 1px solid #000; /* 边框样式 */
+    padding: 10px; /* 添加一些内边距 */
+  }
+  .collapsible-content {
+    display: none; /* 默认隐藏内容 */
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+
+  .spaced-border-div {
+    padding: 5px; /* 添加内边距，增加内容和边框之间的空隙 */
+    margin: 10px;
+  }
+
+  .compressed-item {
+    flex: 0 0 auto; /* 禁止元素扩展，保持宽度不变 */
+    margin-right: 10px; /* 添加间距 */
+  }
+
+  .flat-div {
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+  }
+  .center-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+  }
+  .left-label {
+    margin-right: 30px; /* 调整右侧间距 */
+  }
+  .divRight {
+    margin-left: 0px; /* 添加适当的左边距 */
+  }
+  .divLeft {
+    margin-right: 0px; /* 添加适当的右边距 */
+  }
+  .collapsibleDiv {
+    display: block; /* 初始状态隐藏 */
+    /* padding: 10px; */
+    border: 0px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  .parentSlideDiv {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slidingDiv {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    overflow-x: scroll; 
+    white-space: nowrap; 
+  }
+  .slideContent {
+    flex: 0 0 calc(70% - 20px); /* 三列，减去间隔的宽度 */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+  }
+
+  .slideDraggable {
+    cursor: grab;
+  }

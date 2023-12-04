@@ -1,0 +1,28 @@
+/* 为不同类型的元素定义不同的样式 */
+.draggable {
+    z-index: 9;
+    background: #fff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -3px 0px 6px 0px #a9a9a980, 3px 0px 6px 0px #a9a9a980;
+    border-radius: 4px;
+    cursor: grab;
+    position: fixed; /* 保持原始位置 */
+}
+
+.draggable.draggable-1 {
+    width: 100px;
+    height: 50px;
+    /* 可以添加更多特定于此类型的样式 */
+}
+
+.draggable.draggable-2 {
+    width: 80px;
+    height: 60px;
+    /* 可以添加更多特定于此类型的样式 */
+}
+
+/* 添加更多不同类型的样式 */
